@@ -1,0 +1,32 @@
+
+.maindiv1{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-image:url('../Assets/kideducation.jpg');
+   height: 40vw;
+}
+
+.maindiv2{
+    background-image: url('../Assets/whitebg.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv3{
+    background-color: rgb(15, 32, 46);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv4{
+    background-image: url('../Assets/darkbluebg.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
