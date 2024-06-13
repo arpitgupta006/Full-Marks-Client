@@ -8,14 +8,21 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/esm/Container'
 import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
-import answerkey from '../Assets/answerkeysicon.png'
+import Carousel from 'react-bootstrap/Carousel';
+import Footer from '../Components/Footer.js'
 import ebooksicon from '../Assets/ebooksicon.png'
 import lessonplanicon from '../Assets/lessonplanicon.png'
 import testgeneratorsicon from '../Assets/testgeneratorsicon.png'
 import videosicon from '../Assets/videosicon.png'
 import worksheetsicon from '../Assets/worksheetsicon.png'
-import Carousel from 'react-bootstrap/Carousel';
-import whitebg from '../Assets/darkbluebg.jpg';
+import answerkey from '../Assets/answerkeysicon.png'
+import courses from '../Assets/courses.png'
+import schools from '../Assets/schools.png'
+import students from '../Assets/students.png'
+import teachers from '../Assets/teachers.png'
+import videos from '../Assets/videos.png'
+import whitebg from '../Assets/whitebg.jpg'
+import comma from '../Assets/comma.png'
 
 function Mainpage() {
   return (
@@ -30,6 +37,8 @@ function Mainpage() {
           <Button variant="success">Read More</Button>
         </div>
       </div>
+
+  
 
     
 
@@ -352,6 +361,115 @@ function Mainpage() {
 
             </div>
       </div>
+
+
+    
+    
+
+      <div className='maindiv5'>
+        <Container className=' justify-content-center'>
+          <Row>
+            <Col>
+
+              <Card style={{ width: '10rem', backgroundColor: 'rgba(245, 245, 245, 0.1)', border: 0 }}>
+                <Card.Img variant="top" src={students} />
+                <Card.Body>
+                  <Card.Title>STUDENTS</Card.Title>
+                  <Card.Text>
+                    2500+ Students Registered
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+            </Col>
+
+            <Col>
+
+              <Card style={{ width: '10rem', backgroundColor: 'rgba(245, 245, 245, 0.1)', border: 0 }}>
+                <Card.Img variant="top" src={teachers} />
+                <Card.Body>
+                  <Card.Title>TEACHERS</Card.Title>
+                  <Card.Text>
+                    500+ Teachers Registered
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+            </Col>
+
+            <Col>
+
+              <Card style={{ width: '10rem', backgroundColor: 'rgba(245, 245, 245, 0.1)', border: 0 }}>
+                <Card.Img variant="top" src={videos} />
+                <Card.Body>
+                  <Card.Title>VIDEOS</Card.Title>
+                  <Card.Text>
+                    2000+ Online Videos
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+            </Col>
+
+            <Col>
+
+              <Card style={{ width: '10rem', backgroundColor: 'rgba(245, 245, 245, 0.1)', border: 0 }}>
+                <Card.Img variant="top" src={courses} />
+                <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    8000+ Live Courses
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+            </Col>
+
+            <Col>
+
+              <Card style={{ width: '10rem', backgroundColor: 'rgba(245, 245, 245, 0.1)', border: 0 }}>
+                <Card.Img variant="top" src={schools} />
+                <Card.Body>
+                  <Card.Title>SCHOOLS</Card.Title>
+                  <Card.Text>
+                    80+ Registered Schools
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+      <div className='maindiv6'>
+
+        <div style={{ display: 'block', width: 200, padding: 10 }}>
+          <Carousel>
+            <Carousel.Item interval={1500}>
+              <img id='img1'
+                className="d-block w-100"
+                src={comma}
+                alt="Image Two"
+              />
+              
+              <h5 className='d-flex justify-content-center text-light'>John</h5>
+              <h6 className='d-flex justify-content-center text-light'>Full Marks ltd</h6>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={comma}
+                alt="Image Two"
+              />
+              <h5 className='d-flex justify-content-center text-light'>Mike</h5>
+              <h6 className='d-flex justify-content-center text-light'>Delhi public school</h6>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+      </div>
+  
+  <Footer/>
     </div>
   )
 }

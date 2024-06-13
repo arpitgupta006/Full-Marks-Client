@@ -1,23 +1,24 @@
 
 .maindiv1{
+   background-image:url('../Assets/kideducation.jpg');
    justify-content: center;
    align-items: center;
    text-align: center;
-   background-image:url('../Assets/kideducation.jpg');
-   height: 40vw;
+   height: 100vh;
 }
 
 .maindiv2{
     background-image: url('../Assets/whitebg.jpg');
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .maindiv3{
     background-color: rgb(15, 32, 46);
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +30,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.maindiv5{
+    background-image: url('../Assets/whitebg2.jpg');
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv6{
+    background-color: rgb(20, 187, 187);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    image-resolution: 300px;
 }

@@ -8,7 +8,7 @@ import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const Header =()=> {
     return (
-        <div>
+        <div >
             <Container>
                 <Row>
                     <Col className='d-flex' lg="3">
